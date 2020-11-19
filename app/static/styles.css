@@ -1,0 +1,14 @@
+body
+{
+    background-color: rgba(59, 82, 212, 0.609);
+    justify-items: center
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
