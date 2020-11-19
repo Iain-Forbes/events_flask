@@ -2,13 +2,14 @@
 
 {% block content %}
 <h1>More Information on Events</h1>
-<ul>
+<ul class="events">
     {% for event in events %}
         <div>
-        <p> <b><h2>Event:</h2></b><h3>{{event.name}}</h3>
+        <h3>{{event.name}}</h3>
         <b>Description: {{event.description}}</b>
         </div>
     {% endfor %}
+    <img src="https://i.pinimg.com/originals/e5/47/09/e547092b327a376463120be3e8012848.jpg" height="200" width="200">
 </ul>
 
 

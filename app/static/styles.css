@@ -8,7 +8,32 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ul{
+h2{
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;}
+h3{
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;}
+h4{
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;}
+
+.events{
     list-style: none;
     padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+img{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
 }
